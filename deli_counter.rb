@@ -8,10 +8,9 @@ def line(current_line)
 
     current_line.each do |person|
       message = message + " #{number}. #{person}"
-
       number += 1
     end
-    message
+    puts message
   end
 end
 
